@@ -58,7 +58,9 @@ nav ul li a:hover {
 }
 
 #hero {
-    background-color: var(--primary-green);
+    background-image: url('/images/background.jpeg'); /* Asegúrate de actualizar el path */
+    background-size: cover;
+    background-position: center;
     color: var(--white);
     height: 100vh;
     display: flex;
@@ -74,11 +76,16 @@ nav ul li a:hover {
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: var(--primary-green);
+}
+.hero-content p {
+    font-weight: bold;
+    color: var(--primary-green);
 }
 
 .cta-button {
-    background-color: var(--white);
-    color: var(--primary-green);
+    background-color: var(--primary-green);
+    color: var(--white);
     border: none;
     padding: 1rem 2rem;
     font-size: 1.1rem;
@@ -154,6 +161,7 @@ h2 {
 }
 
 .usage-instructions p {
+    
     margin-bottom: 1rem;
 }
 
